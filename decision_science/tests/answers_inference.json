@@ -1,0 +1,7 @@
+{
+    "MEDIAN_AGE": "median age associated with a positive (increasing the number of crimes)\n\n",
+    "T_STAT": "t-statistic = 1.820, The t statistic is the coefficient divided by its standard error. The standard error is an estimate of the standard deviation of the coefficient\n\n",
+    "P_VALUE": "\nthe p-value of 0.128 means that 12.8% chance the MEDIAN_AGE variable has no affect on the NB_INCIDENTS\nIts effect is not statistically significant at the 95% and 90%\n\n",
+    "INCREASE": "\nEach increase by 1 percentage in PERC_MARRIED_COUPLE_FAMILY decrease the NB_INCIDENTS by 2115, holding all other regressors constant.\n",
+    "LIMITATIONS": "\nresiduals are really not random so R-squared remains perfecly valid (deterministic coef) However, inferencial coefs cannot be trusted\np-values and confidence intervals may be smaller than they should be\nDon't be too confident that your model generalizes well\n\n"
+}
